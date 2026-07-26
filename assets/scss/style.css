@@ -216,7 +216,8 @@ overflow: hidden;
 
 @media(max-width:768px){
    .abtcontent{margin-left: 15px;} 
-
+.nav-menu{
+    margin-right: 20px;}
 .pcard{
 
 flex:1 1 100% !important ;
@@ -269,7 +270,7 @@ width:150px;
     margin: 0 auto ;
 }
 
-.nav-menu{ margin-right: 100px;
+.nav-menu{ margin-right: 20px;
     display: flex;
     gap:20px;
     list-style: none;
