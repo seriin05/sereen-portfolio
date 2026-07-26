@@ -2,7 +2,8 @@
 align-items: center;
 justify-content: center;
 gap:15px;
-padding : 60px 20px ;
+padding-top : 60px ;
+padding-bottom: 60px;
 flex-direction: column;} 
 
 .img1{border-radius: 50px;
@@ -152,11 +153,13 @@ border:none;}
 }
 
 
-.projects-grid{max-width: 2000px;
+.projects-grid{width: 100% !important;
+    max-width: 1200px;
     background-color: #ffffff;
     display: flex;
 justify-content: center;
-flex-wrap: wrap;
+flex-wrap: wrap !important;
+flex-direction: row !important;
 gap: 15px;}
 
 .btn{
@@ -190,9 +193,8 @@ object-fit: cover;
 .section-sub{background-color: #ffffff;}
 
 
-.pcard{width:100%;
+.pcard{width:300px !important;
   
-flex:0 0  calc(30% - 100px) ;
 box-sizing: border-box;
     background-color: #ffffff;
 border-radius: 20px;
@@ -205,6 +207,85 @@ overflow: hidden;
 
 
 .foot{background-color: seashell;}
+
+*{box-sizing: border-box;}
+
+
+
+@media(max-width:768px){
+.pcard{
+
+flex:1 1 100% !important ;
+width:100% !important ;
+max-width:100% !important ;
+margin-bottom: 15px;
+}
+
+
+.skills .container{
+flex-direction: column !important;    
+width:100%;
+gap:12px;
+}
+.skillc{
+    text-align: center;
+    width:100%;
+}
+.content h1{
+
+    font-size: 1.8rem;
+}
+.img1{
+
+height:150px;
+width:150px;
+
+}
+.form-group input , .form-group textarea{
+    border-width: 2px;
+}
+}
+
+.header{display: flex;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 5px 2px;
+    z-index: 1000;
+   
+}
+
+.navbar{
+
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+.nav-menu{
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+.nav-link{text-decoration: none;
+color:black;
+font-weight: 600;}
+
+.humbergur{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width:25px;
+    height:3px;
+    margin:5px auto;
+    background-color: #333;
+transition:all 0.3s ease-in-out ;}
 
 
 
