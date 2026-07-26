@@ -269,7 +269,7 @@ width:150px;
     margin: 0 auto ;
 }
 
-.nav-menu{
+.nav-menu{ margin-right: 40px;
     display: flex;
     gap:20px;
     list-style: none;
