@@ -1,0 +1,212 @@
+.container{display: flex;
+align-items: center;
+justify-content: center;
+gap:15px;
+padding : 60px 20px ;
+flex-direction: column;} 
+
+.img1{border-radius: 50px;
+height:200px ;
+width: 200px;
+object-fit: cover;
+margin-bottom: 10px;}
+
+.button{
+    display: inline-block ;
+    padding : 12px 24px ;
+    border : 1px solid #000 ;
+    text-decoration:  none ;
+    color : #fff;
+    background-color: #333;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{background-color: #555;
+transform: translateY(-5px);}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin : 0;
+    padding: 0;
+    background-color: #ffffff
+
+}
+.content h1{
+    font-size:2.5rem;
+    margin : 0 0 10px 0 ;
+    color:#222;
+}
+.content .title{font-size: 1.2rem;
+color:#666;
+letter-spacing: 1px;
+margin : 0 0 20px 0 ;}
+
+.content p{background-color:#ffffff;
+    font-size: 1.2rem;
+color:#666;
+letter-spacing: 1px;
+margin : 0 0 20px 0 ;}
+
+.content{background-color:seashell ;}
+
+
+.abt{background-color: #ffffff;
+padding: 60px 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.abt h2 {
+    background-color:#ffffff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+FONT-size:2rem;
+color:#222;
+margin-bottom: 25px;
+letter-spacing: 1px;
+}
+
+
+ h2 {
+    background-color:#ffffff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+FONT-size:2rem;
+color:#222;
+margin-bottom: 35px;
+letter-spacing: 1px;
+}
+
+.abtcontent{background-color:#ffffff;
+    max-width: 700px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.15rem;
+color:#444;
+}
+
+.skills{background-color:#ffffff;
+    padding: 60px 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.skills .container{
+background-color:#ffffff;
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: center;
+}
+
+
+
+.skills h2 {
+    background-color:#ffffff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+FONT-size:2rem;
+color:#222;
+margin-bottom: 40px;
+letter-spacing: 1px;
+}
+
+
+.skillc{
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding : 15px 35px ;
+    text-decoration:  none ;
+    color : #333;
+    background-color: lightpink;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+font-size: 1.1rem;}
+
+.skillc:hover{background-color: #222;
+color:#ffffff;
+transform: translateY(-5px);}
+
+
+.contact{background-color:#ffffff;}
+.send-btn{display: block;
+margin:15px auto 0 auto ;
+   font-size: 0.85rem;
+background-color:#f7a3b7;
+ transition: background-color 0.3s ease;
+text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+cursor:pointer;
+border:none;}
+
+.form-group input , .form-group textarea {
+    width:100%;
+    padding: 8px 12px;
+    border:5px solid seashell;
+    border-radius: 6px;
+}
+
+
+.projects-grid{max-width: 2000px;
+    background-color: #ffffff;
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;}
+
+.btn{
+    font-size: 0.85rem;
+ transition: transform 0.2s ease , background-color 0.2s ease;
+background-color:#f7a3b7;
+text-decoration: none;
+    border-radius: 20px;
+ padding : 8px 18px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+cursor:pointer;
+border:none;
+}
+
+
+.btn:hover{background-color: #de5d7d;
+transform:scale(1.1);}
+
+
+.card-image img{border-radius: 80px;
+width: 100%;
+object-fit: cover;
+}
+
+
+.pcard:hover{
+   transform:  translateY(-6px) ;
+    box-shadow: 0 10px 20px rgba(222,93,125,0.13);}
+
+.section-sub{background-color: #ffffff;}
+
+
+.pcard{width:100%;
+  
+flex:0 0  calc(30% - 100px) ;
+box-sizing: border-box;
+    background-color: #ffffff;
+border-radius: 20px;
+overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  border: 1px solid #f0e6e6;
+}
+
+.social-media a{text-decoration: none;}
+
+
+.foot{background-color: seashell;}
+
+
+
+
+
