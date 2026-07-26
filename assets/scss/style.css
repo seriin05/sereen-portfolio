@@ -81,7 +81,9 @@ margin-bottom: 35px;
 letter-spacing: 1px;
 }
 
-.abtcontent{background-color:#ffffff;
+.abtcontent{
+    margin-left: 10px;
+    background-color:#ffffff;
     max-width: 700px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 1.15rem;
