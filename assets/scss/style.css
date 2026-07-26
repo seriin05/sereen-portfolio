@@ -215,6 +215,8 @@ overflow: hidden;
 
 
 @media(max-width:768px){
+   .abtcontent{margin-left: 15px;} 
+
 .pcard{
 
 flex:1 1 100% !important ;
