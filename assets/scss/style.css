@@ -306,7 +306,7 @@ background: none;
 border: none;
 font-size: 24px;
           background: none !important;
-
+background-color: transparent !important;
 }
 
 
