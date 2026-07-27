@@ -239,7 +239,7 @@ margin-bottom: 15px;
 }
 
 .nav-menu{
- margin-right: 40px;}
+ margin-right: 40px !important;}
 
 .skills .container{
 flex-direction: column !important;    
