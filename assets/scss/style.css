@@ -297,15 +297,13 @@ html{scroll-behavior: smooth;
 
 
 
-
-
 .menu-btn{padding: 8px;
     display: none;
 cursor: pointer;
 background: none;
 border: none;
 font-size: 24px;
-          background: none !important;
+outline: none !important;
 background-color: transparent !important;
 }
 
@@ -321,28 +319,17 @@ background-color: transparent !important;
 
 
 @media(max-width:768px){
+    .navbar , .header{background-color:#ffffff !important ;
+    width:100% !important;}
 .menu-btn{
+    background-color: transparent !important;
 display: block !important;
 }
-.fa-bars{
-    margin-right: 1000px;
+.fa-bars{margin: 0 !important;
+    margin-left:auto;
     display: block !important;
 font-size: 24px;
 cursor: pointer;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     .content .title{font-size:smaller;
@@ -358,7 +345,7 @@ margin-bottom: 15px;
 .nav-menu{
     display: none;
     position: absolute;
-    top: 80px;
+    top: 40px;
     left:0;
     width: 100%;
     background-color: #fff;
@@ -393,6 +380,4 @@ width:150px;
 .humbergur{display: block;}
 
 }
-
-
 
