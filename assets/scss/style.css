@@ -299,6 +299,14 @@ html{scroll-behavior: smooth;
 
 
 
+.menu-btn{padding: 8px;
+    display: none;
+cursor: pointer;
+background: none;
+border: none;
+font-size: 24px;
+}
+
 
 
 
@@ -311,12 +319,28 @@ html{scroll-behavior: smooth;
 
 
 @media(max-width:768px){
-
+.menu-btn{
+display: block !important;
+}
 .fa-bars{
     margin-right: 1000px;
     display: block !important;
 font-size: 24px;
 cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     .content .title{font-size:smaller;
