@@ -292,7 +292,8 @@ html{scroll-behavior: smooth;
 }
 
 
-.fa-bars{display: none !important;}
+.fa-bars{display: none !important;
+         color: #000;}
 
 
 
