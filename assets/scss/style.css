@@ -325,7 +325,9 @@ background-color: transparent !important;
     background-color: transparent !important;
 display: block !important;
 }
-.fa-bars{margin: 0 !important;
+.fa-bars{
+    color: #000;
+    margin: 0 !important;
     margin-left:auto;
     display: block !important;
 font-size: 24px;
